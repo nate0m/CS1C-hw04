@@ -1,0 +1,126 @@
+Script started on 2023-02-13 17:01:53-08:00 [TERM="st-256color" TTY="/dev/pts/3" COLUMNS="115" LINES="50"]
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw04[00m [K[?1h=[?2004hddate[?1l>[?2004l
+]2;date]1;dateMon Feb 13 05:01:54 PM PST 2023
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw04[00m [K[?1h=[?2004hlls -l[?1l>[?2004l
+]2;ls --color=tty -l]1;lstotal 44
+-rw-r--r-- 1 nate nate  505 Feb  7 12:59 architech.cpp
+-rw-r--r-- 1 nate nate  696 Feb  9 10:44 architech.h
+-rw-r--r-- 1 nate nate  736 Feb 10 20:28 date.cpp
+-rw-r--r-- 1 nate nate 2005 Feb 13 17:01 employee.cpp
+-rw-r--r-- 1 nate nate 2783 Feb 13 17:01 hw04.cpp
+-rw-r--r-- 1 nate nate 3577 Feb 13 17:01 hw04.h
+-rw-r--r-- 1 nate nate    0 Feb 13 17:01 hw04.scr
+-rw-r--r-- 1 nate nate  725 Feb  9 15:37 Makefile
+-rw-r--r-- 1 nate nate  534 Feb  7 14:26 programmer.cpp
+-rw-r--r-- 1 nate nate  750 Feb  9 10:45 programmer.h
+-rw-r--r-- 1 nate nate  392 Feb  7 12:59 timeClass.cpp
+-rw-r--r-- 1 nate nate  975 Feb  9 10:45 timeClass.h
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw04[00m [K[?1h=[?2004hmmake a[?1l>[?2004l
+]2;make a]1;makemake: *** No rule to make target 'a'.  Stop.
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m [36m  hw04[00m [K[?1h=[?2004hmmakea   all[?1l>[?2004l
+]2;make all]1;makeg++ -c date.cpp -o date.o
+g++ -c employee.cpp -o employee.o
+g++ -c programmer.cpp -o programmer.o
+g++ -c architech.cpp -o architech.o
+g++ -c timeClass.cpp -o timeClass.o
+g++ hw04.cpp -o hw04 date.o employee.o programmer.o architech.o timeClass.o
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw04[00m [K[?1h=[?2004h../hw04[?1l>[?2004l
+]2;./hw04]1;./hw04***********************************
+Programmed By: Nathan Milton
+Student Id   : 1204398
+Assignment   : HW04
+CS1C         : T/TH 1:30
+***********************************
+
+Name : undefined-name
+ID Number: 10002
+Phone Number: undefined-phoneNumber
+Age: 0
+Gender: X
+Title: undefined-title 
+Salary: 0
+Date Hired: 2/13/2023
+
+Name : undefined-name
+ID Number: 10003
+Phone Number: undefined-phoneNumber
+Age: 0
+Gender: X
+Title: undefined-title 
+Salary: 0
+Date Hired: 2/13/2023
+Superior Name: undefined-name
+Depart Number: 0
+Last Salary Inc: 0
+
+Phone numbers are the same
+
+Name : Tod
+ID Number: 87878
+Phone Number: 888-888-8888
+Age: 14
+Gender: X
+Title: Landscaper
+Salary: 999999
+Date Hired: 12/7/2
+
+Name : Bill
+ID Number: 0
+Phone Number: 555-555-5555
+Age: 88
+Gender: F
+Title: Different-Programmer
+Salary: 77777
+Date Hired: 12/7/2
+Superior Name: Boof
+Depart Number: 3
+Last Salary Inc: 27
+
+Phone numbers are different
+
+Tod got older
+added 15 to Tod's age.
+
+Name : Tod
+ID Number: 87878
+Phone Number: 888-888-8888
+Age: 29
+Gender: X
+Title: Landscaper
+Salary: 999999
+Date Hired: 12/7/2
+
+Input a Employee in this formate (name id-number phone-number age gender title salary date-hired(12 12 12)):user 1234 9999999999 21 M title 50000 12 12 21
+
+Name : user
+ID Number: 1234
+Phone Number: 9999999999
+Age: 21
+Gender: M
+Title: title
+Salary: 50000
+Date Hired: 12/12/21
+
+__TESTING_PRE_POST_INCREMENT__
+Post Increment of user age
+Name : user
+ID Number: 1234
+Phone Number: 9999999999
+Age: 22
+Gender: M
+Title: title
+Salary: 50000
+Date Hired: 12/12/21
+
+Pre Increment of user age
+Name : user
+ID Number: 1234
+Phone Number: 9999999999
+Age: 23
+Gender: M
+Title: title
+Salary: 50000
+Date Hired: 12/12/21
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw04[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2023-02-13 17:02:49-08:00 [COMMAND_EXIT_CODE="0"]
