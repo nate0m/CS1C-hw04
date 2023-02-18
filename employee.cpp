@@ -1,4 +1,4 @@
-#include "hw04.h"
+#include "employee.h"
 
 double employee::numEmployees = 0;
 
@@ -33,20 +33,16 @@ bool employee::operator!=(const employee& e) {
 
 	return !(pNumber == e.pNumber);
 }
-employee::employee() {
-
-	// initializes employee object to default values
-    name = "undefined-name";
-    title = "undefined-title ";
-    pNumber = "undefined-phoneNumber";
+employee::employee() : name{"undefined-name"},
+                       title{"undefined-title "},
+                       pNumber{"undefined-phoneNumber"},
+                       age{0},
+                       gender{'X'},
+                       salary{0} {
 
 	numEmployees++;
 
 	idNum = generateId();
-
-    age = 0;
-    gender = 'X';
-    salary = 0;
 }
 employee::employee(string n, string t, string p, int a, char g, int s) : 
 

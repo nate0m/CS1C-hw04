@@ -1,7 +1,7 @@
 #ifndef _TIMECLASS_H
 #define _TIMECLASS_H
 
-#include "hw04.h"
+#include "employee.h"
 
 enum TimeZone {
 	PACIFIC,
@@ -9,6 +9,8 @@ enum TimeZone {
 	CENTRAL,
 	EASTERN
 };
+// --CLASS-- used to store a speciific point in time (hours, mins, secs)
+//           also used for derived classes invoice and extendedTime
 class Time {
 
 	public:
@@ -22,6 +24,7 @@ class Time {
 		int minutes;
 		int seconds;
 };
+// --CLASS-- used to store a time and time zone object. Time object is within Time class and time zone object is added in extendedTime class
 class extentedTime: public Time {
 
 	friend ostream &operator<<(ostream &cout, extentedTime& exT);
@@ -35,6 +38,7 @@ class extentedTime: public Time {
 		const string stringTZones[numTimeZones] = {"PACIFIC", "MOUNTAIN", "CENTRAL", "EASTERN"}; 
 		TimeZone tZone;
 };
+// --CLASS-- used to store the time of a purchase with a Time object
 class invoice: public Time {
 
 	friend ostream &operator<<(ostream &cout, invoice& iv);

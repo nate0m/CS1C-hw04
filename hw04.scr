@@ -1,30 +1,52 @@
-Script started on 2023-02-13 17:01:53-08:00 [TERM="st-256color" TTY="/dev/pts/3" COLUMNS="115" LINES="50"]
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw04[00m [K[?1h=[?2004hddate[?1l>[?2004l
-]2;date]1;dateMon Feb 13 05:01:54 PM PST 2023
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw04[00m [K[?1h=[?2004hlls -l[?1l>[?2004l
-]2;ls --color=tty -l]1;lstotal 44
--rw-r--r-- 1 nate nate  505 Feb  7 12:59 architech.cpp
--rw-r--r-- 1 nate nate  696 Feb  9 10:44 architech.h
--rw-r--r-- 1 nate nate  736 Feb 10 20:28 date.cpp
--rw-r--r-- 1 nate nate 2005 Feb 13 17:01 employee.cpp
--rw-r--r-- 1 nate nate 2783 Feb 13 17:01 hw04.cpp
--rw-r--r-- 1 nate nate 3577 Feb 13 17:01 hw04.h
--rw-r--r-- 1 nate nate    0 Feb 13 17:01 hw04.scr
--rw-r--r-- 1 nate nate  725 Feb  9 15:37 Makefile
--rw-r--r-- 1 nate nate  534 Feb  7 14:26 programmer.cpp
--rw-r--r-- 1 nate nate  750 Feb  9 10:45 programmer.h
--rw-r--r-- 1 nate nate  392 Feb  7 12:59 timeClass.cpp
--rw-r--r-- 1 nate nate  975 Feb  9 10:45 timeClass.h
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw04[00m [K[?1h=[?2004hmmake a[?1l>[?2004l
-]2;make a]1;makemake: *** No rule to make target 'a'.  Stop.
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m [36m  hw04[00m [K[?1h=[?2004hmmakea   all[?1l>[?2004l
+Script started on 2023-02-17 18:36:22-08:00 [TERM="st-256color" TTY="/dev/pts/1" COLUMNS="115" LINES="50"]
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw04[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddate[?1l>[?2004l
+]2;date]1;dateFri Feb 17 06:36:23 PM PST 2023
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw04[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlls -l[?1l>[?2004l
+]2;ls --color=tty -l]1;lstotal 80
+-rw-r--r-- 1 nate nate   530 Feb 17 18:35 architech.cpp
+-rw-r--r-- 1 nate nate   829 Feb 17 18:35 architech.h
+-rw-r--r-- 1 nate nate   736 Feb 17 18:29 date.cpp
+-rw-r--r-- 1 nate nate   562 Feb 17 18:29 date.h
+-rw-r--r-- 1 nate nate  2043 Feb 17 18:29 employee.cpp
+-rw-r--r-- 1 nate nate  3437 Feb 17 18:25 employee.h
+-rw-r--r-- 1 nate nate  2787 Feb 17 18:23 hw04.cpp
+-rw-r--r-- 1 nate nate     0 Feb 17 18:36 hw04.scr
+-rw-r--r-- 1 nate nate 30720 Feb 13 17:04 [0m[01;31mhw04.tar[0m
+-rw-r--r-- 1 nate nate   733 Feb 17 18:19 Makefile
+-rw-r--r-- 1 nate nate   583 Feb 17 18:34 programmer.cpp
+-rw-r--r-- 1 nate nate   887 Feb 17 18:32 programmer.h
+-rw-r--r-- 1 nate nate   391 Feb 17 18:31 timeClass.cpp
+-rw-r--r-- 1 nate nate  1330 Feb 17 18:31 timeClass.h
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw04[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hmmake all[?1l>[?2004l
 ]2;make all]1;makeg++ -c date.cpp -o date.o
 g++ -c employee.cpp -o employee.o
 g++ -c programmer.cpp -o programmer.o
 g++ -c architech.cpp -o architech.o
 g++ -c timeClass.cpp -o timeClass.o
 g++ hw04.cpp -o hw04 date.o employee.o programmer.o architech.o timeClass.o
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw04[00m [K[?1h=[?2004h../hw04[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw04[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlls -l[?1l>[?2004l
+]2;ls --color=tty -l]1;lstotal 188
+-rw-r--r-- 1 nate nate   530 Feb 17 18:35 architech.cpp
+-rw-r--r-- 1 nate nate   829 Feb 17 18:35 architech.h
+-rw-r--r-- 1 nate nate 14504 Feb 17 18:36 architech.o
+-rw-r--r-- 1 nate nate   736 Feb 17 18:29 date.cpp
+-rw-r--r-- 1 nate nate   562 Feb 17 18:29 date.h
+-rw-r--r-- 1 nate nate  4648 Feb 17 18:36 date.o
+-rw-r--r-- 1 nate nate  2043 Feb 17 18:29 employee.cpp
+-rw-r--r-- 1 nate nate  3437 Feb 17 18:25 employee.h
+-rw-r--r-- 1 nate nate 21952 Feb 17 18:36 employee.o
+-rwxr-xr-x 1 nate nate 40768 Feb 17 18:36 [0m[01;32mhw04[0m
+-rw-r--r-- 1 nate nate  2787 Feb 17 18:23 hw04.cpp
+-rw-r--r-- 1 nate nate     0 Feb 17 18:36 hw04.scr
+-rw-r--r-- 1 nate nate 30720 Feb 13 17:04 [01;31mhw04.tar[0m
+-rw-r--r-- 1 nate nate   733 Feb 17 18:19 Makefile
+-rw-r--r-- 1 nate nate   583 Feb 17 18:34 programmer.cpp
+-rw-r--r-- 1 nate nate   887 Feb 17 18:32 programmer.h
+-rw-r--r-- 1 nate nate 14680 Feb 17 18:36 programmer.o
+-rw-r--r-- 1 nate nate   391 Feb 17 18:31 timeClass.cpp
+-rw-r--r-- 1 nate nate  1330 Feb 17 18:31 timeClass.h
+-rw-r--r-- 1 nate nate  3544 Feb 17 18:36 timeClass.o
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw04[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h../hw04[?1l>[?2004l
 ]2;./hw04]1;./hw04***********************************
 Programmed By: Nathan Milton
 Student Id   : 1204398
@@ -39,7 +61,7 @@ Age: 0
 Gender: X
 Title: undefined-title 
 Salary: 0
-Date Hired: 2/13/2023
+Date Hired: 2/17/2023
 
 Name : undefined-name
 ID Number: 10003
@@ -48,7 +70,7 @@ Age: 0
 Gender: X
 Title: undefined-title 
 Salary: 0
-Date Hired: 2/13/2023
+Date Hired: 2/17/2023
 Superior Name: undefined-name
 Depart Number: 0
 Last Salary Inc: 0
@@ -90,37 +112,37 @@ Title: Landscaper
 Salary: 999999
 Date Hired: 12/7/2
 
-Input a Employee in this formate (name id-number phone-number age gender title salary date-hired(12 12 12)):user 1234 9999999999 21 M title 50000 12 12 21
+Input a Employee in this formate (name id-number phone-number age gender title salary date-hired(12 12 12)):user 1234 8888888888 21 M garbageman 50000 12 12 12
 
 Name : user
 ID Number: 1234
-Phone Number: 9999999999
+Phone Number: 8888888888
 Age: 21
 Gender: M
-Title: title
+Title: garbageman
 Salary: 50000
-Date Hired: 12/12/21
+Date Hired: 12/12/12
 
 __TESTING_PRE_POST_INCREMENT__
 Post Increment of user age
 Name : user
 ID Number: 1234
-Phone Number: 9999999999
+Phone Number: 8888888888
 Age: 22
 Gender: M
-Title: title
+Title: garbageman
 Salary: 50000
-Date Hired: 12/12/21
+Date Hired: 12/12/12
 
 Pre Increment of user age
 Name : user
 ID Number: 1234
-Phone Number: 9999999999
+Phone Number: 8888888888
 Age: 23
 Gender: M
-Title: title
+Title: garbageman
 Salary: 50000
-Date Hired: 12/12/21
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw04[00m [K[?1h=[?2004heexit[?1l>[?2004l
+Date Hired: 12/12/12
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw04]1;..CS1C/src/hw04[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw04[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004heexe exit[?1l>[?2004l
 ]2;exit]1;exit
-Script done on 2023-02-13 17:02:49-08:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2023-02-17 18:37:16-08:00 [COMMAND_EXIT_CODE="0"]

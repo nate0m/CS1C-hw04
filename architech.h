@@ -1,9 +1,10 @@
 #ifndef _ARCHITECH_H
 #define _ARCHITECH_H
 
-#include "hw04.h"
+#include "employee.h"
 
-
+// --CLASS-- derived from employee added specific architech private data members
+// used to store architech employee information 
 class architech: public employee {
 
 	public:

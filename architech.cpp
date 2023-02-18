@@ -1,13 +1,11 @@
 #include "architech.h"
 
-architech::architech() : employee() {
+architech::architech() : employee(),
+	                     suprName{"undefined-name"},
+	                     departNum{0},
+	                     lSalInc{0},
+	                     yearsExp{0} {}
 
-	// initialize architech object to default values
-	suprName  = "undefined-name";
-	departNum = 0;
-	lSalInc   = 0;
-	yearsExp  = 0;
-}
 void const architech::printArchitech() {
 
 	// print architch object to console

@@ -1,9 +1,10 @@
 #ifndef _PROGRAMMER_H
 #define _PROGRAMMER_H
 
-#include "hw04.h"
+#include "employee.h"
 
-
+// --CLASS-- derived from employee class added specific programmer private date members
+// used to store data of programmer employees
 class programmer: public employee {
 
 	public:

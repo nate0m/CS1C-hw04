@@ -3,7 +3,6 @@
 void Time::printTime() {
 
 	cout << hours << ":" << minutes << ":" << seconds;
-
 }
 ostream &operator<<(ostream &cout, extentedTime& exT) {
 
